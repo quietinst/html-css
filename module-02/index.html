@@ -4,44 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Module-01</title>
+  <title>Module-02</title>
 </head>
 
 <body>
   <!-- Page Header -->
-  <header>
+  <header class="header">
     <a class="logo" href="./index.html">
       <p><span>Web</span>Studio</p>
     </a>
-    <nav>
-      <ul>
-        <li><a href="">Studio</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contacts</a></li>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li class="main-nav-item"><a href="">Studio</a></li>
+        <li class="main-nav-item"><a href="">Portfolio</a></li>
+        <li class="main-nav-item"><a href="">Contacts</a></li>
       </ul>
     </nav>
-    <address>
-      <ul>
-        <li><a href="mailto:info@deastudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    <address class="contacts">
+      <ul class="contacts-list">
+        <li class="contacts-item"><a href="mailto:info@deastudio.com">inli@devstudio.com</a></li>
+        <li class="contacts-item"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
     </address>
   </header>
   <!-- Page Main Content -->
-  <main>
+  <main class="main">
     <section class="hero">
       <div class="container">
-        <h1>WEffective Solutions for Your Business</h1>
-        <a href="" class="btn">Order Service</a>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <a class="btn" href="">Order Service</a>
       </div>
     </section>
     <section class="features">
       <div class="container">
-        <h2>Our Features</h2>
-        <ul>
-          <li>
+        <h2 class="features-title">Our Features</h2>
+        <ul class="features-list">
+          <li class="features-item">
             <!-- <img src="" alt=""> -->
             <h3>Strategy</h3>
             <p>
@@ -49,21 +55,21 @@
               problem to walk away with the perfect and creative solution
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <!-- <img src="" alt=""> -->
             <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <!-- <img src="" alt=""> -->
             <h3>Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <!-- <img src="" alt=""> -->
             <h3>Technologies</h3>
             <p>
@@ -75,24 +81,24 @@
     </section>
     <section class="team">
       <div class="container">
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-item">
             <img src="./images/team/team-1.jpg" width="264" height="260" alt="photo of a man">
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/team/team-2.jpg" width="264" height="260" alt="photo of a man">
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/team/team-3.jpg" width="264" height="260" alt="photo of a woman">
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/team/team-4.jpg" width="264" height="260" alt="photo of a man">
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
@@ -100,9 +106,47 @@
         </ul>
       </div>
     </section>
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="portfolio-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img src="./images/portfolio/portfolio-1.jpg" width="360" height="300" alt="photo of Banking App">
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/portfolio/portfolio-2.jpg" width="360" height="300" alt="photo of Cashless Payment">
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/portfolio/portfolio-3.jpg" width="360" height="300" alt="photo of Meditation App">
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/portfolio/portfolio-4.jpg" width="360" height="300" alt="photo of Taxi Service">
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/portfolio/portfolio-5.jpg" width="360" height="300" alt="photo of Screen Illustrations">
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/portfolio/portfolio-6.jpg" width="360" height="300" alt="photo of Online Courses">
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
   <!-- Page Footer -->
-  <footer>
+  <footer class="footer">
     <div class="container">
       <a class="logo-footer" href="./index.html">
         <p><span>Web</span>Studio</p>

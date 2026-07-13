@@ -1,0 +1,123 @@
+/* Reset / normalize */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* css-variables */
+:root {
+  /* font */
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+  --font-size-base: 16px;
+  /* color */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+/* Basic tags */
+html {
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+.header {
+}
+.logo {
+}
+.main-nav {
+}
+.main-nav-list {
+}
+.main-nav-item {
+}
+.contacts {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+
+/* Main Content */
+.main {
+}
+/* Hero Section */
+.hero {
+}
+.container {
+}
+.hero-title {
+}
+.btn {
+}
+/* Features Section */
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+/* Team Section */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+/* Portfolio Section */
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+
+/* Footer */
+.footer {
+}
+.logo-footer {
+}
