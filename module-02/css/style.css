@@ -75,16 +75,18 @@ img {
   color: var(--iris);
 }
 
-/* ? */
 .main-nav {
-  font-weight: 500;
-  color: var(--navy-blue);
 }
 
 .main-nav-list {
 }
 
 .main-nav-item {
+}
+
+.main-nav-link {
+  font-weight: 500;
+  color: var(--navy-blue);
 }
 
 .contacts {
@@ -94,6 +96,9 @@ img {
 }
 
 .contacts-item {
+}
+
+.contacts-link {
 }
 
 /* Main Content */
