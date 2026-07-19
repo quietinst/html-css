@@ -7,9 +7,9 @@ This repository contains my HTML & CSS learning journey with structured modules 
 - module-01 — Basic HTML structure
 - module-02 — CSS basics
 - module-03 — Layouts (Flexbox / Grid)
-- module-04 — Forms
-- module-05 — Responsive design
-- module-06 — Advanced practice projects
+- module-04 — Decorative effects
+- module-05 — Forms
+- module-06 — Responsive design
 
 ## Live previews (GitHub Pages)
 
