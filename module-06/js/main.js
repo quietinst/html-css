@@ -1,7 +1,14 @@
+// Modal variables
 const modalOverlay = document.querySelector('.modal-overlay');
 const modalCloseBtn = document.querySelector('.modal-close-btn');
 const modalOpenBtn = document.querySelector('.hero-btn');
 
+// Mobile Menu variables
+const mobileMenu = document.querySelector('.mobile-menu');
+const mobileMenuBtn = document.querySelector('.menu-btn');
+const mobileMenuCloseBtn = document.querySelector('.mobile-menu-close-btn');
+
+// Modal
 function openModal() {
   modalOverlay.classList.add('is-open');
   document.body.style.overflow = 'hidden';
@@ -27,3 +34,18 @@ document.addEventListener('keydown', function (event) {
     closeModal();
   }
 });
+
+// Mobile Menu
+function openMobileMenu() {
+  mobileMenu.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMobileMenu() {
+  mobileMenu.classList.remove('is-open');
+  document.body.style.overflow = '';
+}
+
+mobileMenuBtn.addEventListener('click', openMobileMenu);
+
+mobileMenuCloseBtn.addEventListener('click', closeMobileMenu);
