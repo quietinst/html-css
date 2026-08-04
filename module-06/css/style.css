@@ -127,7 +127,7 @@ body {
   color: var(--navy-blue);
 }
 
-.mobile-menu-link.current {
+.mobile-menu-link.active {
   color: var(--ocean);
 }
 
@@ -1082,5 +1082,13 @@ body {
 
   .footer-sub {
     margin-left: auto;
+  }
+}
+
+@media (min-resolution: 2dppx) {
+  .hero {
+    background-image:
+      linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero_bg@2x.jpg');
   }
 }
